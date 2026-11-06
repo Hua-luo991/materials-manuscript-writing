@@ -34,3 +34,34 @@
 ## 处理期刊差异
 
 遵循目标期刊当前的SI、Extended Data、Source Data、编号和附件规定。未指定期刊时先形成内容分工，不把某一家期刊的字数、名称或文件格式当作普适规则。
+
+## 让SI沿着主文的阅读需求展开
+
+先列主文每个主要判断需要的细节，再决定SI顺序。可按主图顺序组织，也可将统一Methods、Notes、图和表分区。长文件用目录帮助定位，核对实际PDF页序与作者页码。
+
+主文保留研究答案和关键比较。SI可展开：完整配比或温度系列、更多位置与批次、完整谱图和拟合、制备路径、装置几何、模型推导及参数来源。决定主要解释的实际差异应在相应主文句子中说清。
+
+在Methods中给共同操作的简洁版本，SI提供完整步骤或图示。正文涉及后续取样、溶解、载流子淬灭层或工作态转化时，保留读者辨认实际测量对象所需的短条件。
+
+## 写有内容的引用句
+
+以下是功能示意，图号和事实须按稿件替换：
+
+- “The full concentration series is shown in Supplementary Fig. S3.” 用于主文已报告关键趋势、补图展开完整系列。
+- “The four-probe geometry and thickness measurement are described in Supplementary Fig. S4 and Supplementary Methods.” 用于定位具体程序。
+- “The fitted decay components and amplitudes are listed in Supplementary Table S2.” 用于将主文使用的平均参数连接到拟合细节。
+- “The potential-step sequence is given in Supplementary Fig. S5.” 用于承接工作状态和时间路径。
+
+按期刊采用Supplementary Fig. 3或Fig. S3等格式。引用必须有实际对应内容。正文与补充项目不必一句一引；把引用放在读者需要该信息的位置。
+
+## 区分图注、Methods与Note
+
+图注说明当前展示：对象、系列、面板、条件、符号和统计。Methods说明怎样制备、测量和处理。Note解释特定分析如何得到正文使用的关系。
+
+若一幅补图下需要数段解释，如单组分溶液与器件前驱液因溶解度而采用不同浓度，应让两组条件紧邻图，并以Supplementary Note展开较长原因。沿用主文名词，明确哪些参数固定、哪些改变。
+
+公式按S编号或目标期刊规则编号；紧接定义变量、单位、参照态与使用的数据。迁移其他论文的公式前核对量纲和符号，不因来源期刊知名就直接套用。拟合表将分量、幅度、平均值及拟合优度分别列出；测得量与导出量分别命名。
+
+视频图注交代真实过程与播放关系；长时间稳定性图说明储存或运行、环境和读出间隔。补充表比较文献时保留状态、介质与归一化基准。
+
+参考案例：C03–C06与C10；新增SI页序、哈希和阅读范围见reading-protocol.md。

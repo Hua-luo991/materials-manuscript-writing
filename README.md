@@ -12,6 +12,8 @@ A reusable agent skill for clear, precise, concise writing in materials chemistr
 - **突出贡献**：直接呈现已完成的工作与依据，把事实核对融入修改过程。
 - **章节协调**：让不同部分各自完成任务，并围绕同一主要贡献相互呼应。
 
+正式稿围绕已完成的工作、结果与依据展开。用具体范围、条件和数量控制表述强度；事实核对融入修改过程，不惯例性追加自我否定的结尾、局限段或未来实验清单。
+
 ## 包含内容
 
 | 模块 | 内容 |
@@ -22,10 +24,12 @@ A reusable agent skill for clear, precise, concise writing in materials chemistr
 | 方法与精确表达 | 定义样品、百分比、物理量及可复现的操作细节 |
 | 结论 | 汇总工作所建立的认识及其意义 |
 | 补充材料 | 安排补充结果、方法、图注与主文引用 |
+| 数量与比较 | 区分投料、溶液与固体组成，明确物理量、测试状态和归一化基准 |
+| 句子与段落 | 用简单动词连接专业名词，压缩重复，以内容自然衔接 |
 | 跨章节衔接 | 协调术语、信息分配与叙述节奏 |
-| 阅读资料 | 200篇公开论文的题录与写作笔记、16个案例、70条原文定位记录 |
+| 阅读资料 | 500篇公开论文的题录与写作笔记、38个写作案例、原有70条与新增2355条选段定位记录 |
 
-阅读索引逐篇记录阅读范围、全文版本与来源；引用计数为2026年11月6日的Europe PMC快照。资料以写作笔记和来源索引为主，具体科学结论可通过DOI及开放全文链接回到原文核对。
+本次新增300篇均取得正文并完成分章节选段阅读，各有独立写作笔记；其中6篇另作正文专题精读，4份SI读取42个指定页面。新增22个案例与原有16个案例共同支持按任务调用。阅读索引逐篇记录阅读范围、全文版本与来源；引用计数为2026年11月6日的Europe PMC快照。资料以写作笔记和来源索引为主，具体科学结论可通过DOI及开放全文链接回到原文核对。
 
 ## 使用
 
@@ -49,8 +53,12 @@ git clone https://github.com/Hua-luo991/materials-manuscript-writing.git
 
 - [`SKILL.md`](skills/materials-manuscript-writing/SKILL.md)：核心流程和按任务加载的模块导航。
 - [`references/`](skills/materials-manuscript-writing/references)：各章节规范、改写示例和文献阅读资料。
-- [`literature-index.csv`](skills/materials-manuscript-writing/references/literature-index.csv)：200篇论文的检索入口。
+- [`literature-index.csv`](skills/materials-manuscript-writing/references/literature-index.csv)：500篇论文的检索入口。
 - [`literature-cases.md`](skills/materials-manuscript-writing/references/literature-cases.md)：16个写作案例。
+- [`close-reading-cases.md`](skills/materials-manuscript-writing/references/close-reading-cases.md)：新增22个材料化学、物理与SI案例。
+- [`reading-protocol.md`](skills/materials-manuscript-writing/references/reading-protocol.md)：新增300篇的阅读范围、期刊分布、稿本与SI页序。
+- [`quantity-comparisons.md`](skills/materials-manuscript-writing/references/quantity-comparisons.md)：数量定义、样品状态与性能比较。
+- [`sentence-craft.md`](skills/materials-manuscript-writing/references/sentence-craft.md)：句子压缩与自然衔接。
 - [`sources.md`](skills/materials-manuscript-writing/references/sources.md)：来源、阅读范围与复核方式。
 
 ## 改进

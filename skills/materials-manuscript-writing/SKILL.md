@@ -1,7 +1,7 @@
 ---
 name: materials-manuscript-writing
 description: >-
-  Draft, translate, polish, shorten, or reorganize materials chemistry and physics manuscripts with coordinated abstracts, introductions, Results, Discussion, conclusions, figure legends, Methods, and supporting information. Use for 材料论文写作、单晶生长论文、钙钛矿或辐射探测器稿件、摘要引言结论、图注、实验方法、补充材料、主文与SI分工、按已研读论文风格修改、去除模板腔或防御性写作. Apply a contribution-centred, precise, concise academic style; load section guidance and the 200-paper reading index only as needed.
+  Draft, translate, polish, shorten, or reorganize materials chemistry and physics manuscripts with coordinated abstracts, introductions, Results, Discussion, conclusions, figure legends, Methods, and supporting information. Use for 材料论文写作、单晶生长论文、钙钛矿或辐射探测器稿件、摘要引言结论、图注、实验方法、补充材料、主文与SI分工、按已研读论文风格修改、去除模板腔或防御性写作. Apply a contribution-centred, precise, concise academic style; load section guidance and the 500-paper reading index only as needed.
 ---
 
 # 材料论文写作
@@ -33,8 +33,12 @@ description: >-
 | 讨论、结论，多个结果的综合 | [discussion-conclusion.md](references/discussion-conclusion.md) |
 | SI结构、主文与SI分工、补充引用 | [supporting-information.md](references/supporting-information.md) |
 | 整篇写作、跨章节呼应、压缩或收尾 | [coordination-style.md](references/coordination-style.md) |
+| 数量定义、样品身份、物理量或性能比较 | [quantity-comparisons.md](references/quantity-comparisons.md) |
+| 句法、朴实用词、压缩和自然衔接 | [sentence-craft.md](references/sentence-craft.md) |
 | 需要具体改写范例或迁移写法 | [examples.md](references/examples.md) |
 | 需要已研读论文的具体案例或继续阅读 | [literature-cases.md](references/literature-cases.md) 与 [literature-index.csv](references/literature-index.csv) |
+| 需要新增材料化学、物理与SI写作案例 | [close-reading-cases.md](references/close-reading-cases.md) |
+| 需要了解阅读范围、来源和新增300篇定位 | [reading-protocol.md](references/reading-protocol.md) 与 [reading-locators-300.csv](references/reading-locators-300.csv) |
 | 需要回到原文逐段核对 | [case-locators.csv](references/case-locators.csv) 与 [sources.md](references/sources.md) |
 
 ## 始终执行的语言规则
@@ -43,6 +47,7 @@ description: >-
 - 偏好自然的被动语态；以具体量为主语时直接描述变化。按句子功能选择时态。
 - 首次完整定义样品和百分比，后续使用稳定简称。分别命名投料、溶液配方和产物实测含量；区分同材料、同晶体、同器件与同工况。
 - 根据实际测量区分信号、拟合参数、反演量和解释。以准确名词与动词完成这种区分，不给每项发现追加自我否定。
+- 对已建立的贡献直接陈述，以范围和条件控制强度。保留由相关结果支持的结构或机制认识，不机械降格为仪器记录，也不把全部判断统一弱化成may或suggest。
 - 保持术语、符号和缩写一致；只为提高表达质量调整普通词，勿为降重轮换专业名称。
 - 用真实的比较、变化或推理完成衔接。减少机械重复的Accordingly、Together with、Consistent with、These results show that；勿换成另一套高频模板。
 - 压缩重复背景、评价和无信息量总结，保留决定意义的条件和有解释作用的差异。
